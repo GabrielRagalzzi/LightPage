@@ -1,4 +1,6 @@
 import { createGlobalStyle } from "styled-components";
+//primeiro instalar o style-components
+//após isso criei um componente de stylização global para o projeto, zerando umas pré-estilizações do html, e exportei
 
 export default createGlobalStyle`
         *{

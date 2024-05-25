@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+//aqui eu fiz a parte da estilização da pagina, com os formatos, cores, temas e animações
 
 export const StyledApp = styled.div `
 
@@ -25,12 +26,18 @@ export const StyledApp = styled.div `
             background-color: FFFFE0;
             transition: 0.3s;
             font-family: "Poppins", sans-serif;
+            p{
+                opacity: 50%;
+            }
 
         }
         .themeDark{
             background-color: var(--dark-color);
             transition: 0.3s;
             font-family: "Poppins", sans-serif;
+            p{
+                opacity: 50%;
+            }
 
         }
         .themeText{
@@ -51,7 +58,7 @@ export const StyledApp = styled.div `
                 box-shadow: 0px 0px 25px var(--light-color);
             }
         }
-        h2{
+        h2, p{
             color: var(--text-color);
         }
 
